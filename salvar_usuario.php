@@ -3,7 +3,7 @@
         case 'cadastrar':
             $nome= $_POST["nome"];
             $email= $_POST["email"];
-            $senha= md5$_POST["senha"];
+            $senha= md5($_POST["senha"]);
 
             $sql = "INSERT INTO cadastro_usuario (nome,
                 email, senha) VALUES ('{$nome}', '{$email}', '{$senha}')";
