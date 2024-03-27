@@ -1,0 +1,9 @@
+CREATE DATABASE cadastro_usuario;
+USE cadastro_usuario;
+CREATE TABLE usuario(
+	id INTEGER PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nome VARCHAR (100) NOT NULL,
+	email VARCHAR (100) NOT NULL,
+	senha VARCHAR (100) NOT NULL
+);
+
